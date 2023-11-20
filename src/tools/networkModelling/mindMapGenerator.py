@@ -2,10 +2,10 @@ import graphviz
 import json
 
 
-def create_topics(g, parent, sections, used_nodes):
+def add_nodes(g, parent, sections, used_nodes, remove_topics):
     keys = sections
     for key in keys:
-        if key == "title": continue
+        if key == "title" or (remove_topics and key == "text"): continue
         if key != "text":
             if key not in used_nodes:
                 g.node(key)
@@ -13,7 +13,7 @@ def create_topics(g, parent, sections, used_nodes):
                 used_nodes.append(key)
 
             if isinstance(sections, dict):
-                g = create_topics(g, key, sections[key], used_nodes)
+                g = add_nodes(g, key, sections[key], used_nodes, remove_topics)
         else:
             for item in sections["text"]:
                 g.node(item)
@@ -23,7 +23,7 @@ def create_topics(g, parent, sections, used_nodes):
     return g
 
 
-def create_mind_map(filepath):
+def create_mind_map(filepath, remove_topics=False):
     with open(filepath, 'r') as j:
         sections = dict(json.loads(j.read()))
 
@@ -31,7 +31,7 @@ def create_mind_map(filepath):
     print(title)
 
     # Initialize the graph
-    g = graphviz.Graph(title, filename=f"./data/{title}.gv", engine='circo')
+    g = graphviz.Graph(title, filename=f"./data/{title}.gv", engine='sfdp')
 
     # create the central node and set the node attribute to be ellipse shape
     g.attr('node', shape='ellipse')
@@ -42,4 +42,4 @@ def create_mind_map(filepath):
 
     used_nodes = ["leopard", "title"]
 
-    return create_topics(g, title, dict(sections), used_nodes)
+    return add_nodes(g, title, dict(sections), used_nodes, remove_topics)

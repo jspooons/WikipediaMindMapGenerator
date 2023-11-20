@@ -6,7 +6,7 @@ from src.utility.utility import get_n_grams, set_sections_topics
 
 
 if __name__ == "__main__":
-    article = WikipediaArticle("https://en.wikipedia.org/wiki/Maths")
+    article = WikipediaArticle("https://en.wikipedia.org/wiki/Leopard")
 
     article.sections = pre_process_text_runner(article.sections)
 
