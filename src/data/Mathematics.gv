@@ -1,0 +1,255 @@
+graph Mathematics {
+	node [shape=ellipse]
+	Mathematics
+	node [shape=box]
+	Etymology
+	Mathematics -- Etymology
+	study
+	Etymology -- study
+	plural
+	Etymology -- plural
+	mathematics
+	Etymology -- mathematics
+	"Areas of mathematics"
+	Mathematics -- "Areas of mathematics"
+	mathematics
+	"Areas of mathematics" -- mathematics
+	century
+	"Areas of mathematics" -- century
+	calculus
+	"Areas of mathematics" -- calculus
+	"Number theory"
+	"Areas of mathematics" -- "Number theory"
+	theory
+	"Number theory" -- theory
+	number_theory
+	"Number theory" -- number_theory
+	number_theory
+	"Number theory" -- number_theory
+	Geometry
+	"Areas of mathematics" -- Geometry
+	geometry
+	Geometry -- geometry
+	line
+	Geometry -- line
+	geometry
+	Geometry -- geometry
+	Algebra
+	"Areas of mathematics" -- Algebra
+	algebraic
+	Algebra -- algebraic
+	one
+	Algebra -- one
+	operation
+	Algebra -- operation
+	"Calculus and analysis"
+	"Areas of mathematics" -- "Calculus and analysis"
+	calculus
+	"Calculus and analysis" -- calculus
+	analysis
+	"Calculus and analysis" -- analysis
+	many
+	"Calculus and analysis" -- many
+	"Discrete mathematics"
+	"Areas of mathematics" -- "Discrete mathematics"
+	major
+	"Discrete mathematics" -- major
+	problem
+	"Discrete mathematics" -- problem
+	study
+	"Discrete mathematics" -- study
+	"Mathematical logic and set theory"
+	"Areas of mathematics" -- "Mathematical logic and set theory"
+	cantor
+	"Mathematical logic and set theory" -- cantor
+	theory
+	"Mathematical logic and set theory" -- theory
+	object
+	"Mathematical logic and set theory" -- object
+	"Statistics and other decision sciences"
+	"Areas of mathematics" -- "Statistics and other decision sciences"
+	statistical
+	"Statistics and other decision sciences" -- statistical
+	statistic
+	"Statistics and other decision sciences" -- statistic
+	data
+	"Statistics and other decision sciences" -- data
+	"Computational mathematics"
+	"Areas of mathematics" -- "Computational mathematics"
+	analysis
+	"Computational mathematics" -- analysis
+	computational
+	"Computational mathematics" -- computational
+	mathematical
+	"Computational mathematics" -- mathematical
+	History
+	Mathematics -- History
+	Ancient
+	History -- Ancient
+	bc
+	Ancient -- bc
+	use
+	Ancient -- use
+	mathematics
+	Ancient -- mathematics
+	"Medieval and later"
+	History -- "Medieval and later"
+	mathematical
+	"Medieval and later" -- mathematical
+	mathematics
+	"Medieval and later" -- mathematics
+	achievement
+	"Medieval and later" -- achievement
+	"Symbolic notation and terminology"
+	Mathematics -- "Symbolic notation and terminology"
+	theorem
+	"Symbolic notation and terminology" -- theorem
+	mathematical
+	"Symbolic notation and terminology" -- mathematical
+	use
+	"Symbolic notation and terminology" -- use
+	"Relationship with sciences"
+	Mathematics -- "Relationship with sciences"
+	example
+	"Relationship with sciences" -- example
+	mathematics
+	"Relationship with sciences" -- mathematics
+	mathematical
+	"Relationship with sciences" -- mathematical
+	"Pure and applied mathematics"
+	"Relationship with sciences" -- "Pure and applied mathematics"
+	pure_mathematics
+	"Pure and applied mathematics" -- pure_mathematics
+	introduce
+	"Pure and applied mathematics" -- introduce
+	mathematician
+	"Pure and applied mathematics" -- mathematician
+	"Unreasonable effectiveness"
+	"Relationship with sciences" -- "Unreasonable effectiveness"
+	theory
+	"Unreasonable effectiveness" -- theory
+	mathematics
+	"Unreasonable effectiveness" -- mathematics
+	year
+	"Unreasonable effectiveness" -- year
+	"Specific sciences"
+	"Relationship with sciences" -- "Specific sciences"
+	Physics
+	"Specific sciences" -- Physics
+	abundantly
+	Physics -- abundantly
+	history
+	Physics -- history
+	influence
+	Physics -- influence
+	Computing
+	"Specific sciences" -- Computing
+	proof
+	Computing -- proof
+	mathematics
+	Computing -- mathematics
+	computer
+	Computing -- computer
+	"Biology and chemistry"
+	"Specific sciences" -- "Biology and chemistry"
+	need
+	"Biology and chemistry" -- need
+	model
+	"Biology and chemistry" -- model
+	model
+	"Biology and chemistry" -- model
+	"Earth sciences"
+	"Specific sciences" -- "Earth sciences"
+	meteorology
+	"Earth sciences" -- meteorology
+	mathematics
+	"Earth sciences" -- mathematics
+	probabilistic
+	"Earth sciences" -- probabilistic
+	"Social sciences"
+	"Specific sciences" -- "Social sciences"
+	mathematical
+	"Social sciences" -- mathematical
+	cycle
+	"Social sciences" -- cycle
+	citation_need
+	"Social sciences" -- citation_need
+	"Relationship with astrology and esotericism"
+	Mathematics -- "Relationship with astrology and esotericism"
+	renowned
+	"Relationship with astrology and esotericism" -- renowned
+	mathematics
+	"Relationship with astrology and esotericism" -- mathematics
+	science
+	"Relationship with astrology and esotericism" -- science
+	Philosophy
+	Mathematics -- Philosophy
+	Reality
+	Philosophy -- Reality
+	reality
+	Reality -- reality
+	mathematics
+	Reality -- mathematics
+	philosophical
+	Reality -- philosophical
+	"Proposed definitions"
+	Philosophy -- "Proposed definitions"
+	study
+	"Proposed definitions" -- study
+	definition
+	"Proposed definitions" -- definition
+	definition
+	"Proposed definitions" -- definition
+	Rigor
+	Philosophy -- Rigor
+	approach
+	Rigor -- approach
+	proof
+	Rigor -- proof
+	proof
+	Rigor -- proof
+	"Training and practice"
+	Mathematics -- "Training and practice"
+	Education
+	"Training and practice" -- Education
+	math
+	Education -- math
+	mathematics
+	Education -- mathematics
+	teacher
+	Education -- teacher
+	"Psychology (aesthetic, creativity and intuition)"
+	"Training and practice" -- "Psychology (aesthetic, creativity and intuition)"
+	mathematician
+	"Psychology (aesthetic, creativity and intuition)" -- mathematician
+	mathematics
+	"Psychology (aesthetic, creativity and intuition)" -- mathematics
+	mathematical
+	"Psychology (aesthetic, creativity and intuition)" -- mathematical
+	"Cultural impact"
+	Mathematics -- "Cultural impact"
+	"Artistic expression"
+	"Cultural impact" -- "Artistic expression"
+	group
+	"Artistic expression" -- group
+	need
+	"Artistic expression" -- need
+	symmetry
+	"Artistic expression" -- symmetry
+	Popularization
+	"Cultural impact" -- Popularization
+	mathematical
+	Popularization -- mathematical
+	popular
+	Popularization -- popular
+	use
+	Popularization -- use
+	"Awards and prize problems"
+	Mathematics -- "Awards and prize problems"
+	award
+	"Awards and prize problems" -- award
+	one
+	"Awards and prize problems" -- one
+	hilbert
+	"Awards and prize problems" -- hilbert
+}

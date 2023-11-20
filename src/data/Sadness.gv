@@ -1,0 +1,53 @@
+graph Sadness {
+	node [shape=ellipse]
+	Sadness
+	node [shape=box]
+	Childhood
+	Sadness -- Childhood
+	may
+	Childhood -- may
+	experience
+	Childhood -- experience
+	child
+	Childhood -- child
+	Neuroanatomy
+	Sadness -- Neuroanatomy
+	pardo
+	Neuroanatomy -- pardo
+	brain
+	Neuroanatomy -- brain
+	bilateral
+	Neuroanatomy -- bilateral
+	"Coping mechanisms"
+	Sadness -- "Coping mechanisms"
+	sadness
+	"Coping mechanisms" -- sadness
+	way
+	"Coping mechanisms" -- way
+	people
+	"Coping mechanisms" -- people
+	"Pupil empathy"
+	Sadness -- "Pupil empathy"
+	sad
+	"Pupil empathy" -- sad
+	person
+	"Pupil empathy" -- person
+	expression
+	"Pupil empathy" -- expression
+	"Vocal expression"
+	Sadness -- "Vocal expression"
+	lower
+	"Vocal expression" -- lower
+	state
+	"Vocal expression" -- state
+	emotion
+	"Vocal expression" -- emotion
+	"Cultural explorations"
+	Sadness -- "Cultural explorations"
+	sadness
+	"Cultural explorations" -- sadness
+	mourn
+	"Cultural explorations" -- mourn
+	r
+	"Cultural explorations" -- r
+}

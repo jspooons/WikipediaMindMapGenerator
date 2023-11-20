@@ -1,0 +1,223 @@
+graph Elephant {
+	node [shape=ellipse]
+	Elephant
+	node [shape=box]
+	Etymology
+	Elephant -- Etymology
+	elephant
+	Etymology -- elephant
+	refer
+	Etymology -- refer
+	mycenaean
+	Etymology -- mycenaean
+	Taxonomy
+	Elephant -- Taxonomy
+	elephant
+	Taxonomy -- elephant
+	elephant
+	Taxonomy -- elephant
+	elephant
+	Taxonomy -- elephant
+	Evolution
+	Taxonomy -- Evolution
+	proboscidean
+	Evolution -- proboscidean
+	include
+	Evolution -- include
+	specie
+	Evolution -- specie
+	"Living species"
+	Taxonomy -- "Living species"
+	Anatomy
+	Elephant -- Anatomy
+	support
+	Anatomy -- support
+	season
+	Anatomy -- season
+	skull
+	Anatomy -- skull
+	"Ears and eyes"
+	Anatomy -- "Ears and eyes"
+	light
+	"Ears and eyes" -- light
+	elephant
+	"Ears and eyes" -- elephant
+	capillary
+	"Ears and eyes" -- capillary
+	Trunk
+	Anatomy -- Trunk
+	also
+	Trunk -- also
+	elephant
+	Trunk -- elephant
+	nerve
+	Trunk -- nerve
+	Teeth
+	Anatomy -- Teeth
+	usually
+	Teeth -- usually
+	four
+	Teeth -- four
+	jaw
+	Teeth -- jaw
+	Tusks
+	Teeth -- Tusks
+	asian
+	Tusks -- asian
+	ivory
+	Tusks -- ivory
+	elephant
+	Tusks -- elephant
+	Skin
+	Anatomy -- Skin
+	african
+	Skin -- african
+	hair
+	Skin -- hair
+	asian
+	Skin -- asian
+	"Legs, locomotion, and posture"
+	Anatomy -- "Legs, locomotion, and posture"
+	move
+	"Legs, locomotion, and posture" -- move
+	leg
+	"Legs, locomotion, and posture" -- leg
+	foot
+	"Legs, locomotion, and posture" -- foot
+	"Internal systems"
+	Anatomy -- "Internal systems"
+	beat
+	"Internal systems" -- beat
+	brain
+	"Internal systems" -- brain
+	mammal
+	"Internal systems" -- mammal
+	"Sex organs"
+	Anatomy -- "Sex organs"
+	cm
+	"Sex organs" -- cm
+	female
+	"Sex organs" -- female
+	male
+	"Sex organs" -- male
+	"Behaviour and ecology"
+	Elephant -- "Behaviour and ecology"
+	food
+	"Behaviour and ecology" -- food
+	km
+	"Behaviour and ecology" -- km
+	tree
+	"Behaviour and ecology" -- tree
+	"Social organisation"
+	"Behaviour and ecology" -- "Social organisation"
+	family
+	"Social organisation" -- family
+	elephant
+	"Social organisation" -- elephant
+	elephant
+	"Social organisation" -- elephant
+	"Sexual behaviour"
+	"Behaviour and ecology" -- "Sexual behaviour"
+	Musth
+	"Sexual behaviour" -- Musth
+	male
+	Musth -- male
+	nonmusth
+	Musth -- nonmusth
+	bull
+	Musth -- bull
+	Mating
+	"Sexual behaviour" -- Mating
+	male
+	Mating -- male
+	female
+	Mating -- female
+	involve
+	Mating -- involve
+	"Birth and development"
+	"Behaviour and ecology" -- "Birth and development"
+	year
+	"Birth and development" -- year
+	year
+	"Birth and development" -- year
+	year
+	"Birth and development" -- year
+	Communication
+	"Behaviour and ecology" -- Communication
+	communication
+	Communication -- communication
+	touch
+	Communication -- touch
+	communicate
+	Communication -- communicate
+	"Intelligence and cognition"
+	"Behaviour and ecology" -- "Intelligence and cognition"
+	animal
+	"Intelligence and cognition" -- animal
+	among
+	"Intelligence and cognition" -- among
+	visual
+	"Intelligence and cognition" -- visual
+	Conservation
+	Elephant -- Conservation
+	Status
+	Conservation -- Status
+	high
+	Status -- high
+	africa
+	Status -- africa
+	around
+	Status -- around
+	Threats
+	Conservation -- Threats
+	ban
+	Threats -- ban
+	human
+	Threats -- human
+	park
+	Threats -- park
+	"Human relations"
+	Elephant -- "Human relations"
+	"Working animal"
+	"Human relations" -- "Working animal"
+	year
+	"Working animal" -- year
+	animal
+	"Working animal" -- animal
+	capture
+	"Working animal" -- capture
+	Warfare
+	"Human relations" -- Warfare
+	trunk
+	Warfare -- trunk
+	bc
+	Warfare -- bc
+	horse
+	Warfare -- horse
+	"Zoos and circuses"
+	"Human relations" -- "Zoos and circuses"
+	circus
+	"Zoos and circuses" -- circus
+	circus
+	"Zoos and circuses" -- circus
+	zoo
+	"Zoos and circuses" -- zoo
+	Attacks
+	"Human relations" -- Attacks
+	attack
+	Attacks -- attack
+	300
+	Attacks -- 300
+	village
+	Attacks -- village
+	"Cultural significance"
+	"Human relations" -- "Cultural significance"
+	story
+	"Cultural significance" -- story
+	human
+	"Cultural significance" -- human
+	africa
+	"Cultural significance" -- africa
+	Bibliography
+	Elephant -- Bibliography
+}
