@@ -1,5 +1,5 @@
 from src.utility.utility import *
-from src.models.lamini_flat_t5_248m import llm_pipeline
+from src.models.lamini_flat_t5_248m import llm_runner
 import logging
 import os
 
@@ -39,7 +39,7 @@ def pre_process_text(list_of_paragraphs, summarize, key):
         sentences_joined = join_sentences(citations_removed)
 
         log.info(f"Pre-processing {key}| summarize the text | Summarization enabled: {summarize} ")
-        text_summarized = llm_pipeline(sentences_joined)
+        text_summarized = llm_runner(sentences_joined)
 
         log.info(f"Pre-processing {key}| add new line tokens every 50 lines | Summarization enabled: {summarize} ")
         new_lines_added = add_new_lines(text_summarized, 50)

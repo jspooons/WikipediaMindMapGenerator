@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 
 class WikipediaArticle:
-    sections_to_remove = ["See also", "Notes and references", "Further reading", "External links"]
+    sections_to_remove = ["See also", "Notes and references", "Further reading", "External links", "References", "Bibliography"]
 
     def __init__(self, url):
         self.url = url
@@ -17,9 +17,6 @@ class WikipediaArticle:
 
     def save(self):
         self.sections["title"] = self.title
-
-        if "References" in self.sections.keys():
-            del self.sections["References"]
 
         with open(f'./data/{self.title}.json', 'w') as fp:
             json.dump(self.sections, fp)
@@ -42,7 +39,7 @@ class WikipediaArticle:
 
         # start_idx = 1 because there is a 'meta' tag at the beginning when find_all() is called
         start_idx = 1
-        header = body[start_idx].text
+        header = body[start_idx].text.replace("[edit]", '')
         header_type = int(body[start_idx].name.replace('h', ''))
         current_section = {header: {"text": []}}
 
@@ -73,7 +70,7 @@ class WikipediaArticle:
         i = start
         while i < len(body):
             tag_name = body[i].name
-            tag_text = body[i].text
+            tag_text = body[i].text.replace("[edit]", '')
 
             # Check whether the current tag is a header using regex
             if header_pattern.match(tag_name):

@@ -28,7 +28,6 @@ def create_mind_map(filepath, remove_topics=False):
         sections = dict(json.loads(j.read()))
 
     title = sections["title"]
-    print(title)
 
     # Initialize the graph
     g = graphviz.Graph(title, filename=f"./data/{title}.gv", engine='sfdp')

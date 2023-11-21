@@ -8,7 +8,7 @@ from src.utility.utility import get_n_grams, set_sections_topics
 if __name__ == "__main__":
     summarize = True
 
-    article = WikipediaArticle("https://en.wikipedia.org/wiki/Leopard")
+    article = WikipediaArticle("https://en.wikipedia.org/wiki/Nico_Ditch")
     article.sections = pre_process_text_runner(article.sections, summarize)
 
     if not summarize:
