@@ -22,29 +22,28 @@ def pre_process_text_runner(sections, summarize, key=""):
     return sections
 
 
-def pre_process_text(list_of_paragraphs, summarize, key):
-    log.info(f"Pre-processing {key} | Summarization enabled: {summarize}")
+def pre_process_text(list_of_paragraphs, key):
+    log.info(f"Pre-processing {key}")
 
-    log.info(f"Pre-processing | splitting up the paragraphs: {key} | Summarization enabled: {summarize}")
+    log.info(f"Pre-processing | splitting up the paragraphs: {key}")
     paragraphs_split = split_paragraphs_into_sentences(list_of_paragraphs)
 
-    log.info(f"Pre-processing | removing new line tokens: {key} | Summarization enabled: {summarize}")
+    log.info(f"Pre-processing | removing new line tokens: {key}")
     new_line_tokens_removed = remove_new_line_tokens(paragraphs_split)
 
-    log.info(f"Pre-processing | removing citations: {key} | Summarization enabled: {summarize}")
+    log.info(f"Pre-processing | removing citations: {key}")
     citations_removed = remove_citations(new_line_tokens_removed)
 
-    if summarize:
-        log.info(f"Pre-processing {key}| join each text | Summarization enabled: {summarize} ")
-        sentences_joined = join_sentences(citations_removed)
+    log.info(f"Pre-processing {key}| join each text")
+    sentences_joined = join_sentences(citations_removed)
 
-        log.info(f"Pre-processing {key}| summarize the text | Summarization enabled: {summarize} ")
-        text_summarized = llm_runner(sentences_joined)
+    log.info(f"Pre-processing {key}| summarize the text")
+    text_summarized = llm_runner(sentences_joined)
 
-        log.info(f"Pre-processing {key}| split summarized text into sentences | Summarization enabled: {summarize} ")
-        paragraph_split = split_paragraph_into_sentences(text_summarized)
+    log.info(f"Pre-processing {key}| split summarized text into sentences")
+    paragraph_split = split_paragraph_into_sentences(text_summarized)
 
-        log.info(f"Pre-processing {key}| add new line tokens every 20 characters | Summarization enabled: {summarize} ")
-        new_lines_added = add_new_lines(paragraph_split, 20)
+    log.info(f"Pre-processing {key}| add new line tokens every 20 characters")
+    new_lines_added = add_new_lines(paragraph_split, 20)
 
-        return new_lines_added
+    return new_lines_added
