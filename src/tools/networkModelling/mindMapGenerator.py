@@ -5,8 +5,9 @@ import json
 def add_nodes(g, parent, sections, used_nodes, remove_topics):
     keys = sections
     for key in keys:
-        if key == "title" or (remove_topics and key == "text"): continue
-        if key != "text":
+        if key == "title" or (remove_topics and key == "text"):
+            continue
+        elif key != "text":
             if key not in used_nodes:
                 g.node(key)
                 g.edge(parent, key)
@@ -30,7 +31,7 @@ def create_mind_map(filepath, remove_topics=False):
     title = sections["title"]
 
     # Initialize the graph
-    g = graphviz.Graph(title, filename=f"./data/{title}.gv", engine='sfdp')
+    g = graphviz.Graph(title, filename=f"./data/{title}.gv", engine='sfdp', graph_attr={'overlap': 'scale'})
 
     # create the central node and set the node attribute to be ellipse shape
     g.attr('node', shape='ellipse')

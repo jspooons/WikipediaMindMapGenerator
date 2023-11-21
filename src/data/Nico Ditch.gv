@@ -1,0 +1,118 @@
+graph "Nico Ditch" {
+	graph [overlap=scale]
+	node [shape=ellipse]
+	"Nico Ditch"
+	node [shape=box]
+	Etymology
+	"Nico Ditch" -- Etymology
+	"The earliest documented
+reference to the ditch
+is in a charter detailing
+the granting of land
+in Audenshaw to the monks
+of the Kersal Cell from
+1190 to 1212"
+	Etymology -- "The earliest documented
+reference to the ditch
+is in a charter detailing
+the granting of land
+in Audenshaw to the monks
+of the Kersal Cell from
+1190 to 1212"
+	" The ditch is referred
+to as \"Mykelldiche\" and
+a magnum fossatum, which
+is Latin for \"large ditch"
+	Etymology -- " The ditch is referred
+to as \"Mykelldiche\" and
+a magnum fossatum, which
+is Latin for \"large ditch"
+	"\" The name Nico (sometimes
+Nikker) for"
+	Etymology -- "\" The name Nico (sometimes
+Nikker) for"
+	Course
+	"Nico Ditch" -- Course
+	"Nico Ditch is a 6 mi
+(9 7 km) ditch that passes
+through four metropolitan
+boroughs of present-day
+Greater Manchester"
+	Course -- "Nico Ditch is a 6 mi
+(9 7 km) ditch that passes
+through four metropolitan
+boroughs of present-day
+Greater Manchester"
+	" It is located between
+Ashton Moss and Hough
+Moss, passes through
+Denton, Reddish, Gorton,
+Levenshulme, Burnage,
+Rushol"
+	Course -- " It is located between
+Ashton Moss and Hough
+Moss, passes through
+Denton, Reddish, Gorton,
+Levenshulme, Burnage,
+Rushol"
+	History
+	"Nico Ditch" -- History
+	"The earthwork was constructed
+between the end of Roman
+rule in Britain in the
+early 5th century and
+the Norman conquest in
+1066"
+	History -- "The earthwork was constructed
+between the end of Roman
+rule in Britain in the
+early 5th century and
+the Norman conquest in
+1066"
+	" It may have been used
+as a defensive fortification
+or as an administrative
+boundary, possibly marking
+a 7th-century boundary
+for the expansionist
+Anglo-Saxons or a late
+8th or early 9th century
+boundary marker between
+the kingdoms of Mercia
+and Northumbria"
+	History -- " It may have been used
+as a defensive fortification
+or as an administrative
+boundary, possibly marking
+a 7th-century boundary
+for the expansionist
+Anglo-Saxons or a late
+8th or early 9th century
+boundary marker between
+the kingdoms of Mercia
+and Northumbria"
+	" The ditch was the site
+of a battle"
+	History -- " The ditch was the site
+of a battle"
+	Preservation
+	"Nico Ditch" -- Preservation
+	"The ditch is visible
+in short sections with
+up to 4-5 yards wide
+and up to 5 feet deep,
+with a 330-yard stretch
+through Denton Golf Course
+and a section running
+through Platt Fields
+Park"
+	Preservation -- "The ditch is visible
+in short sections with
+up to 4-5 yards wide
+and up to 5 feet deep,
+with a 330-yard stretch
+through Denton Golf Course
+and a section running
+through Platt Fields
+Park"
+}

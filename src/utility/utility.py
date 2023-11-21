@@ -7,17 +7,24 @@ from nltk import pos_tag
 import gensim
 
 
-def add_new_lines(text, maxlen):
+def add_new_lines(paragraph, maxlen):
+    return [add_new_lines_to_sentence(sentence, maxlen) for sentence in paragraph if len(sentence) > 5]
+
+
+def add_new_lines_to_sentence(text, maxlen):
     i = maxlen
     while i < len(text):
         if text[i] != ' ':
             space_index = text.find(' ', i)
+
             if space_index != -1:
                 text = text[:space_index] + '\n' + text[space_index+1:]
-                i = space_index + maxlen
+                i = space_index + maxlen + 1  # adding 1 to consider that we have removed a space and added \n
+            else:
+                i += 1
         else:
             text = text[:i] + '\n' + text[i+1:]
-            i += maxlen
+            i += maxlen + 1  # adding 1 to consider that we have removed a space and added \n
 
     return text
 
@@ -28,6 +35,10 @@ def join_sentences(sentences):
 
 def split_paragraphs_into_sentences(list_of_paragraphs):
     return [sentence for paragraph in list_of_paragraphs for sentence in paragraph.split(".")]
+
+
+def split_paragraph_into_sentences(paragraph):
+    return paragraph.split(".")
 
 
 def remove_new_line_tokens(sentences):

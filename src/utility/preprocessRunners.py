@@ -41,10 +41,13 @@ def pre_process_text(list_of_paragraphs, summarize, key):
         log.info(f"Pre-processing {key}| summarize the text | Summarization enabled: {summarize} ")
         text_summarized = llm_runner(sentences_joined)
 
-        log.info(f"Pre-processing {key}| add new line tokens every 50 lines | Summarization enabled: {summarize} ")
-        new_lines_added = add_new_lines(text_summarized, 50)
+        log.info(f"Pre-processing {key}| split summarized text into sentences | Summarization enabled: {summarize} ")
+        paragraph_split = split_paragraph_into_sentences(text_summarized)
 
-        return [new_lines_added]
+        log.info(f"Pre-processing {key}| add new line tokens every 20 characters | Summarization enabled: {summarize} ")
+        new_lines_added = add_new_lines(paragraph_split, 20)
+
+        return new_lines_added
     else:
         log.info(f"Pre-processing {key}| set characters lower case | Summarization enabled: {summarize} ")
         sentences_lower_case = make_lower_case(citations_removed)
