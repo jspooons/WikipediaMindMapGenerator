@@ -11,6 +11,9 @@ base_model = T5ForConditionalGeneration.from_pretrained(checkpoint, device_map='
 
 def llm_pipeline(input_text):
 
+    # TODO: if num_words > 512 then split in half, summarize, then combine
+    num_words = len(input_text.split(' '))
+
     pipe_sum = pipeline(
         'summarization',
         model=base_model,
