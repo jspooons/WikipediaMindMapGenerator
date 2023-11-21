@@ -1,0 +1,596 @@
+graph Leopard {
+	graph [overlap=scale]
+	node [shape=ellipse]
+	Leopard
+	node [shape=box]
+	Etymology
+	Leopard -- Etymology
+	"The English name \"leopard\"
+comes from Old French
+leupart or Middle French
+liepart, which derives
+from Latin leopardus
+and ancient Greek  (pardos)"
+	Etymology -- "The English name \"leopard\"
+comes from Old French
+leupart or Middle French
+liepart, which derives
+from Latin leopardus
+and ancient Greek  (pardos)"
+	" Leopardos was originally
+referred to a cheetah"
+	Etymology -- " Leopardos was originally
+referred to a cheetah"
+	Characteristics
+	Leopard -- Characteristics
+	"The leopard's fur is
+soft and thick, with
+pale yellowish to dark
+golden with dark spots
+grouped in rosettes"
+	Characteristics -- "The leopard's fur is
+soft and thick, with
+pale yellowish to dark
+golden with dark spots
+grouped in rosettes"
+	" The underbelly is white
+and its ringed tail is
+shorter than its body"
+	Characteristics -- " The underbelly is white
+and its ringed tail is
+shorter than its body"
+	" Its pupils are round"
+	Characteristics -- " Its pupils are round"
+	" Spots fade toward the
+white underbellies and
+the insides and lower
+parts of the legs"
+	Characteristics -- " Spots fade toward the
+white underbellies and
+the insides and lower
+parts of the legs"
+	" Rosettes are circular
+in East African leopard
+populations, and tend
+to be squarish in Southern
+African and larger in
+Asian leopard"
+	Characteristics -- " Rosettes are circular
+in East African leopard
+populations, and tend
+to be squarish in Southern
+African and larger in
+Asian leopard"
+	Size
+	Characteristics -- Size
+	"Leopard is a slender
+and muscular cat with
+short limbs and a broad
+head"
+	Size -- "Leopard is a slender
+and muscular cat with
+short limbs and a broad
+head"
+	" Males are larger and
+heavier than females,
+with males standing 60-70
+cm at the shoulder and
+females 57-64 cm (22-25
+in) tall"
+	Size -- " Males are larger and
+heavier than females,
+with males standing 60-70
+cm at the shoulder and
+females 57-64 cm (22-25
+in) tall"
+	" The head-and-body length
+ranges between 92 and
+183 cm, with a long tail"
+	Size -- " The head-and-body length
+ranges between 92 and
+183 cm, with a long tail"
+	" The maximum recorded
+weight of a wild leopard
+in Southern Africa was
+around 96 kg"
+	Size -- " The maximum recorded
+weight of a wild leopard
+in Southern Africa was
+around 96 kg"
+	Taxonomy
+	Leopard -- Taxonomy
+	"Felis pardus was the
+scientific name proposed
+by Carl Linnaeus in 1758,
+Panthera was the generic
+name used by Lorenz Oken
+in 1816, and the leopard
+was designated as the
+type species of Panthera
+by Joel Asaph Allen in"
+	Taxonomy -- "Felis pardus was the
+scientific name proposed
+by Carl Linnaeus in 1758,
+Panthera was the generic
+name used by Lorenz Oken
+in 1816, and the leopard
+was designated as the
+type species of Panthera
+by Joel Asaph Allen in"
+	"Living subspecies"
+	Taxonomy -- "Living subspecies"
+	"27 leopard subspecies
+were proposed by naturalists
+between 1794 and 1956,
+but only eight have been
+considered valid on the
+basis of mitochondrial
+analysis since 1996"
+	"Living subspecies" -- "27 leopard subspecies
+were proposed by naturalists
+between 1794 and 1956,
+but only eight have been
+considered valid on the
+basis of mitochondrial
+analysis since 1996"
+	" In 2017, the Cat Classification
+Task Force of the Cat
+Specialist Group recognized
+the eight subspectives
+as valid taxa"
+	"Living subspecies" -- " In 2017, the Cat Classification
+Task Force of the Cat
+Specialist Group recognized
+the eight subspectives
+as valid taxa"
+	" The Balochistan leopard
+population is separated
+from the northern population"
+	"Living subspecies" -- " The Balochistan leopard
+population is separated
+from the northern population"
+	Evolution
+	Taxonomy -- Evolution
+	"Phylogenetic studies
+show that the last common
+ancestor of the Panthera
+and Neofelis genera is
+thought to have lived
+about 637 million years
+ago, while NeoFelis diverged
+about 8 66 millions years
+ago"
+	Evolution -- "Phylogenetic studies
+show that the last common
+ancestor of the Panthera
+and Neofelis genera is
+thought to have lived
+about 637 million years
+ago, while NeoFelis diverged
+about 8 66 millions years
+ago"
+	" The tiger, snow leopard,
+and leopard are closely
+related to the lion"
+	Evolution -- " The tiger, snow leopard,
+and leopard are closely
+related to the lion"
+	" The leopard-lion clade
+was distributed in the
+Asian and African Palearctic
+since at least the early
+Pliocene"
+	Evolution -- " The leopard-lion clade
+was distributed in the
+Asian and African Palearctic
+since at least the early
+Pliocene"
+	" Leopard-"
+	Evolution -- " Leopard-"
+	Hybrids
+	Taxonomy -- Hybrids
+	"Crossbred male leopard
+and female lion in Hanshin
+Park in Nishinomiya,
+Japan in 1953"
+	Hybrids -- "Crossbred male leopard
+and female lion in Hanshin
+Park in Nishinomiya,
+Japan in 1953"
+	" Leopon offspring"
+	Hybrids -- " Leopon offspring"
+	"Distribution and habitat"
+	Leopard -- "Distribution and habitat"
+	"Leopards are widely distributed
+in Africa, the Caucasus,
+and Asia, but populations
+are fragmented and declining"
+	"Distribution and habitat" -- "Leopards are widely distributed
+in Africa, the Caucasus,
+and Asia, but populations
+are fragmented and declining"
+	" It inhabits savanna
+and rainforest, and areas
+where grasslands, woodlands,
+and riverine forests
+remain undisturbed"
+	"Distribution and habitat" -- " It inhabits savanna
+and rainforest, and areas
+where grasslands, woodlands,
+and riverine forests
+remain undisturbed"
+	" Leopard populations
+in sub-Saharan Africa
+are still numerous and
+surviving in marginal
+habitats where other
+large cats have disappeared,
+but there is potential
+for human-leopard conflict
+due to leopards pre Leopards
+can be found in heavily
+developed areas due to
+their stealth"
+	"Distribution and habitat" -- " Leopard populations
+in sub-Saharan Africa
+are still numerous and
+surviving in marginal
+habitats where other
+large cats have disappeared,
+but there is potential
+for human-leopard conflict
+due to leopards pre Leopards
+can be found in heavily
+developed areas due to
+their stealth"
+	" They are often unaware
+that they live in nearby
+areas due their stealthily"
+	"Distribution and habitat" -- " They are often unaware
+that they live in nearby
+areas due their stealthily"
+	" In Nepal's Kanchenjunga
+Conservation Area, a
+melanistic leopard was
+photographed at an elevation
+of 4,300 m (14,100 ft),
+in Sri Lanka's Yala National
+Park and in unprotected
+forest patches, tea estates,
+grasslands, home gardens,
+pine and euca"
+	"Distribution and habitat" -- " In Nepal's Kanchenjunga
+Conservation Area, a
+melanistic leopard was
+photographed at an elevation
+of 4,300 m (14,100 ft),
+in Sri Lanka's Yala National
+Park and in unprotected
+forest patches, tea estates,
+grasslands, home gardens,
+pine and euca"
+	"Behaviour and ecology"
+	Leopard -- "Behaviour and ecology"
+	"The leopard is a solitary
+and territorial animal
+that is shy and alert
+when crossing roadways
+and encountering oncoming
+vehicles"
+	"Behaviour and ecology" -- "The leopard is a solitary
+and territorial animal
+that is shy and alert
+when crossing roadways
+and encountering oncoming
+vehicles"
+	" Adults associate only
+in the mating season"
+	"Behaviour and ecology" -- " Adults associate only
+in the mating season"
+	" Females continue to
+interact with their offspring
+even after weaning and
+have been observed sharing
+kills with them when
+they cannot obtain any
+prey"
+	"Behaviour and ecology" -- " Females continue to
+interact with their offspring
+even after weaning and
+have been observed sharing
+kills with them when
+they cannot obtain any
+prey"
+	" The roaring sequence
+in leopards consists
+mainly of grunts, and
+the whitish spots on
+the back of its ears"
+	"Behaviour and ecology" -- " The roaring sequence
+in leopards consists
+mainly of grunts, and
+the whitish spots on
+the back of its ears"
+	"Social spacing"
+	"Behaviour and ecology" -- "Social spacing"
+	"Leopards in Kruger National
+Park tend to keep 1 km
+apart, while males interact
+with their partners and
+cubs occasionally"
+	"Social spacing" -- "Leopards in Kruger National
+Park tend to keep 1 km
+apart, while males interact
+with their partners and
+cubs occasionally"
+	" Aggressive encounters
+are rare, limited to
+defending territories
+from intruders"
+	"Social spacing" -- " Aggressive encounters
+are rare, limited to
+defending territories
+from intruders"
+	" Males occupy home ranges
+that often overlap with
+a few smaller female
+homes, probably as a
+strategy to enhance access
+to females"
+	"Social spacing" -- " Males occupy home ranges
+that often overlap with
+a few smaller female
+homes, probably as a
+strategy to enhance access
+to females"
+	" In the Serengeti, the
+home range of a female
+was completely enclosed
+within a male's"
+	"Social spacing" -- " In the Serengeti, the
+home range of a female
+was completely enclosed
+within a male's"
+	"Hunting and diet"
+	"Behaviour and ecology" -- "Hunting and diet"
+	"The leopard is a carnivore
+that prefers medium-sized
+prey with a body mass
+ranging from 10-40 kg"
+	"Hunting and diet" -- "The leopard is a carnivore
+that prefers medium-sized
+prey with a body mass
+ranging from 10-40 kg"
+	" Prey species in this
+range tend to occur in
+dense habitat and to
+form small herds"
+	"Hunting and diet" -- " Prey species in this
+range tend to occur in
+dense habitat and to
+form small herds"
+	" Species that prefer
+open areas and have well-developed
+anti-predator strategies
+are less preferred"
+	"Hunting and diet" -- " Species that prefer
+open areas and have well-developed
+anti-predator strategies
+are less preferred"
+	" Over 100 prey species
+have been recorded"
+	"Hunting and diet" -- " Over 100 prey species
+have been recorded"
+	" Leopards primarily hunt
+at night in most areas"
+	"Hunting and diet" -- " Leopards primarily hunt
+at night in most areas"
+	" In western African forests
+and Ts"
+	"Hunting and diet" -- " In western African forests
+and Ts"
+	"Enemies and competitors"
+	"Behaviour and ecology" -- "Enemies and competitors"
+	"Leopards are sympatric
+with large predators
+such as tigers, lions,
+cheetahs, and spotted
+hyenas, but they often
+steal their kills and
+kill their cubs"
+	"Enemies and competitors" -- "Leopards are sympatric
+with large predators
+such as tigers, lions,
+cheetahs, and spotted
+hyenas, but they often
+steal their kills and
+kill their cubs"
+	" Leopards retreat up
+a tree in the face of
+direct aggression and
+are observed when killing
+or preying on smaller
+competitors such as black-backed
+jackal, African civet,
+caracal, and African
+wildcat"
+	"Enemies and competitors" -- " Leopards retreat up
+a tree in the face of
+direct aggression and
+are observed when killing
+or preying on smaller
+competitors such as black-backed
+jackal, African civet,
+caracal, and African
+wildcat"
+	"Reproduction and life cycle"
+	"Behaviour and ecology" -- "Reproduction and life cycle"
+	"Leopards mate all year
+round in some areas"
+	"Reproduction and life cycle" -- "Leopards mate all year
+round in some areas"
+	" In Manchuria and Siberia,
+they mate during January
+and February"
+	"Reproduction and life cycle" -- " In Manchuria and Siberia,
+they mate during January
+and February"
+	" Females begin to breed
+between 212 and three,
+and males between two
+and three"
+	"Reproduction and life cycle" -- " Females begin to breed
+between 212 and three,
+and males between two
+and three"
+	" The female's estrous
+cycle lasts about 46
+days, and she is usually
+in heat for 6-7 days"
+	"Reproduction and life cycle" -- " The female's estrous
+cycle lasts about 46
+days, and she is usually
+in heat for 6-7 days"
+	" Gestation lasts for
+90 to 105 days"
+	"Reproduction and life cycle" -- " Gestation lasts for
+90 to 105 days"
+	" Cubs are usually born
+in a litter of 2-4 cubs"
+	"Reproduction and life cycle" -- " Cubs are usually born
+in a litter of 2-4 cubs"
+	Threats
+	Leopard -- Threats
+	"The leopard is threatened
+by habitat fragmentation,
+conversion of forest
+to agricultural land,
+human-wildlife conflict
+with livestock herders,
+and high leopard mortality
+rates"
+	Threats -- "The leopard is threatened
+by habitat fragmentation,
+conversion of forest
+to agricultural land,
+human-wildlife conflict
+with livestock herders,
+and high leopard mortality
+rates"
+	" It is also threatened
+by trophy hunting and
+poaching"
+	Threats -- " It is also threatened
+by trophy hunting and
+poaching"
+	" The leopard occurs in
+only 25% of its historical
+range and has been poached
+for illegal wildlife
+trade in India, Morocco,
+and Morocco"
+	Threats -- " The leopard occurs in
+only 25% of its historical
+range and has been poached
+for illegal wildlife
+trade in India, Morocco,
+and Morocco"
+	" Its population decreased
+from 97 individuals in
+2012 to 50 individuals
+in 2017 due to transhumant
+pastoralists from Sudan
+moving in"
+	Threats -- " Its population decreased
+from 97 individuals in
+2012 to 50 individuals
+in 2017 due to transhumant
+pastoralists from Sudan
+moving in"
+	Conservation
+	Leopard -- Conservation
+	"The leopard is listed
+on CITES Appendix I and
+hunting is banned in
+Botswana and Afghanistan"
+	Conservation -- "The leopard is listed
+on CITES Appendix I and
+hunting is banned in
+Botswana and Afghanistan"
+	" In 11 sub-Saharan countries,
+trade is restricted to
+skins and body parts
+of 2,560 individuals"
+	Conservation -- " In 11 sub-Saharan countries,
+trade is restricted to
+skins and body parts
+of 2,560 individuals"
+	"Cultural significance"
+	Leopard -- "Cultural significance"
+	"Leopards have been featured
+in art, mythology, and
+folklore in many countries"
+	"Cultural significance" -- "Leopards have been featured
+in art, mythology, and
+folklore in many countries"
+	" In Greek mythology it
+was a symbol of the god
+Dionysus"
+	"Cultural significance" -- " In Greek mythology it
+was a symbol of the god
+Dionysus"
+	" In Roman mosaics, it
+was used to symbolize
+the power of the king
+or oba"
+	"Cultural significance" -- " In Roman mosaics, it
+was used to symbolize
+the power of the king
+or oba"
+	" In the Benin Empire,
+the leopard was commonly
+represented on engravings
+and sculptures"
+	"Cultural significance" -- " In the Benin Empire,
+the leopard was commonly
+represented on engravings
+and sculptures"
+	" The Ashanti people also
+used the leopard as an
+important symbol of leadership"
+	"Cultural significance" -- " The Ashanti people also
+used the leopard as an
+important symbol of leadership"
+	" In Rudyard Kipling'"
+	"Cultural significance" -- " In Rudyard Kipling'"
+	"Attacks on people"
+	"Cultural significance" -- "Attacks on people"
+	"The Leopard of Rudraprayag
+killed over 125 people
+and the Panar Leopard
+was thought to have killed
+over"
+	"Attacks on people" -- "The Leopard of Rudraprayag
+killed over 125 people
+and the Panar Leopard
+was thought to have killed
+over"
+	"In captivity"
+	"Cultural significance" -- "In captivity"
+	"Ancient Romans kept leopards
+in captivity to be slaughtered
+in hunts and executed
+criminals"
+	"In captivity" -- "Ancient Romans kept leopards
+in captivity to be slaughtered
+in hunts and executed
+criminals"
+	" In Benin, leopards were
+kept and paraded as mascots,
+totems, and sacrifices
+to deities"
+	"In captivity" -- " In Benin, leopards were
+kept and paraded as mascots,
+totems, and sacrifices
+to deities"
+}
