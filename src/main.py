@@ -6,15 +6,16 @@ from src.utility.utility import get_n_grams, set_sections_topics
 
 
 if __name__ == "__main__":
+    summarize = True
+
     article = WikipediaArticle("https://en.wikipedia.org/wiki/Leopard")
+    article.sections = pre_process_text_runner(article.sections, summarize)
 
-    article.sections = pre_process_text_runner(article.sections)
+    if not summarize:
+        sections_data_words_n_grams, used_keys = get_n_grams(article.sections)
+        lda_top_topics = create_model(sections_data_words_n_grams)
 
-    sections_data_words_n_grams, used_keys = get_n_grams(article.sections)
-
-    lda_top_topics = create_model(sections_data_words_n_grams)
-
-    article.sections = set_sections_topics(article.sections, dict(zip(used_keys, lda_top_topics)), list(article.sections.keys())[0])
+        article.sections = set_sections_topics(article.sections, dict(zip(used_keys, lda_top_topics)), list(article.sections.keys())[0])
 
     article.save()
 
