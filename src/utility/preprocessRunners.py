@@ -9,15 +9,15 @@ logging.basicConfig(format='[%(levelname)s|%(filename)s:%(lineno)s] %(asctime)s 
 log = logging.getLogger(__name__)
 
 
-def pre_process_text_runner(sections, summarize, key=""):
+def pre_process_text_runner(sections, key=""):
     keys = sections.keys()
 
     if "text" in keys:
-        sections["text"] = pre_process_text(sections["text"], summarize, key)
+        sections["text"] = pre_process_text(sections["text"], key)
 
     for key in keys:
         if key != "text":
-            pre_process_text_runner(sections[key], summarize, key)
+            pre_process_text_runner(sections[key], key)
 
     return sections
 
