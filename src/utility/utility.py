@@ -7,6 +7,25 @@ from nltk import pos_tag
 import gensim
 
 
+def add_new_lines(text, maxlen):
+    i = maxlen
+    while i < len(text):
+        if text[i] != ' ':
+            space_index = text.find(' ', i)
+            if space_index != -1:
+                text = text[:space_index] + '\n' + text[space_index+1:]
+                i = space_index + maxlen
+        else:
+            text = text[:i] + '\n' + text[i+1:]
+            i += maxlen
+
+    return text
+
+
+def join_sentences(sentences):
+    return ' '.join(sentences)
+
+
 def split_paragraphs_into_sentences(list_of_paragraphs):
     return [sentence for paragraph in list_of_paragraphs for sentence in paragraph.split(".")]
 
@@ -152,5 +171,3 @@ def set_sections_topics(sections, sections_top_topics_dict, key):
             set_sections_topics(sections[key], sections_top_topics_dict, key)
 
     return sections
-
-
