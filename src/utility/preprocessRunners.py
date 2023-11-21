@@ -48,26 +48,3 @@ def pre_process_text(list_of_paragraphs, summarize, key):
         new_lines_added = add_new_lines(paragraph_split, 20)
 
         return new_lines_added
-    else:
-        log.info(f"Pre-processing {key}| set characters lower case | Summarization enabled: {summarize} ")
-        sentences_lower_case = make_lower_case(citations_removed)
-
-        log.info(f"Pre-processing {key}| remove punctation | Summarization enabled: {summarize} ")
-        punctuation_removed = remove_punctuation(sentences_lower_case)
-
-        log.info(f"Pre-processing {key}| tokenize text | Summarization enabled: {summarize} ")
-        tokenized_sentences = tokenize(punctuation_removed)
-
-        log.info(f"Pre-processing {key}| remove non-ascii characters | Summarization enabled: {summarize} ")
-        non_ascii_removed = remove_non_ascii(tokenized_sentences)
-
-        log.info(f"Pre-processing {key}| remove stopwords | Summarization enabled: {summarize} ")
-        stopwords_removed = remove_stopwords(non_ascii_removed)
-
-        log.info(f"Pre-processing {key}| lemmatize | Summarization enabled: {summarize} ")
-        lemmatized_sentences = lemmatization(stopwords_removed)
-
-        log.info(f"Pre-processing {key}| remove empty sublists | Summarization enabled: {summarize} ")
-        filtered_empty_sublists = filter_empty_sublists(lemmatized_sentences)
-
-        return filtered_empty_sublists

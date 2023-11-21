@@ -1,9 +1,4 @@
 import re
-import string
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk import pos_tag
 import gensim
 
 
@@ -47,58 +42,6 @@ def remove_new_line_tokens(sentences):
 
 def remove_citations(sentences):
     return [re.sub(r'\[\d+]', '', sentence) for sentence in sentences]
-
-
-def make_lower_case(sentences):
-    return [sentence.lower() for sentence in sentences]
-
-
-def remove_punctuation(sentences):
-    translator = str.maketrans('', '', string.punctuation)
-    return [sentence.translate(translator) for sentence in sentences]
-
-
-def tokenize(sentences):
-    return [word_tokenize(sentence) for sentence in sentences]
-
-
-def remove_non_ascii(tokenized_sentences):
-    for i in range(len(tokenized_sentences)):
-        tokenized_sentences[i] = [word for word in tokenized_sentences[i] if all(ord(char) < 128 for char in word)]
-
-    return tokenized_sentences
-
-
-def remove_stopwords(tokenized_sentences):
-    stop_words = stopwords.words('english')
-    stop_words.append('us')
-
-    for i in range(len(tokenized_sentences)):
-        tokenized_sentences[i] = [word for word in tokenized_sentences[i] if word not in stop_words]
-
-    return tokenized_sentences
-
-
-def lemmatization(tokenized_sentences):
-    wordnet_lemmatizer = WordNetLemmatizer()
-
-    for i in range(len(tokenized_sentences)):
-        words_tagged = pos_tag(tokenized_sentences[i])
-
-        # Lemmatize words based on POS tags
-        lemmatized_words = []
-        for word, tag in words_tagged:
-            pos = tag[0].lower() if tag[0].lower() in ['a', 'n', 'v'] else 'n'
-            lemmatized_word = wordnet_lemmatizer.lemmatize(word, pos=pos)
-            lemmatized_words.append(lemmatized_word)
-
-        tokenized_sentences[i] = lemmatized_words
-
-    return tokenized_sentences
-
-
-def filter_empty_sublists(tokenized_sentences):
-    return [sublist for sublist in tokenized_sentences if sublist]
 
 
 def get_sections_texts(sections, texts, section_title):
