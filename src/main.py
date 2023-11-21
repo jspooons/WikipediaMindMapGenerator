@@ -1,7 +1,6 @@
 from src.tools.WikipediaArticle import WikipediaArticle
 from src.tools.networkModelling.mindMapGenerator import create_mind_map
 from src.utility.preprocessRunners import pre_process_text_runner
-from src.models.latent_dirichlet_allocation import create_model
 from src.utility.utility import get_n_grams, set_sections_topics
 
 
