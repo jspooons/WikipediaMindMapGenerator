@@ -7,7 +7,7 @@ Creates a mind map for any wikipedia page
 - GraphVis is used to generate the mindmap
 
 ## Check out this example of the [Nico Ditch](https://en.wikipedia.org/wiki/Nico_Ditch) Wikipedia page
-<img width="822" alt="image" src="https://github.com/jspooons/WikipediaMindMapGenerator/assets/25199093/50c80e9c-596f-4b70-8523-55857ae4d6cd">
+![Nico Ditch](https://github.com/jspooons/WikipediaMindMapGenerator/assets/25199093/602c8305-1228-477d-9e9a-2d5af3bc7c52)
 
 ## See how the MindMapper performs on a larger Wikipedia page, [Leopard](https://en.wikipedia.org/wiki/Leopard)
-[Leopard.gv.pdf](https://github.com/jspooons/WikipediaMindMapGenerator/files/13432110/Leopard.gv.pdf)
+[Leopard.gv.pdf](https://github.com/jspooons/WikipediaMindMapGenerator/files/13488337/Leopard.gv.pdf)
