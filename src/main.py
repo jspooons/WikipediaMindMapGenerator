@@ -4,10 +4,8 @@ from src.utility.preprocessRunners import pre_process_text_runner
 
 
 if __name__ == "__main__":
-    summarize = True
-
-    article = WikipediaArticle("https://en.wikipedia.org/wiki/Leopard")
-    article.sections = pre_process_text_runner(article.sections, summarize)
+    article = WikipediaArticle("https://en.wikipedia.org/wiki/Nico_Ditch")
+    article.sections = pre_process_text_runner(article.sections)
 
     article.save()
 

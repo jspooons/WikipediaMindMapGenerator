@@ -34,16 +34,16 @@ def pre_process_text(list_of_paragraphs, key):
     log.info(f"Pre-processing | removing citations: {key}")
     citations_removed = remove_citations(new_line_tokens_removed)
 
-    log.info(f"Pre-processing {key}| join each text")
+    log.info(f"Pre-processing {key} | join each text")
     sentences_joined = join_sentences(citations_removed)
 
-    log.info(f"Pre-processing {key}| summarize the text")
+    log.info(f"Pre-processing {key} | summarize the text")
     text_summarized = llm_runner(sentences_joined)
 
-    log.info(f"Pre-processing {key}| split summarized text into sentences")
+    log.info(f"Pre-processing {key} | split summarized text into sentences")
     paragraph_split = split_paragraph_into_sentences(text_summarized)
 
-    log.info(f"Pre-processing {key}| add new line tokens every 20 characters")
+    log.info(f"Pre-processing {key} | add new line tokens every 20 characters")
     new_lines_added = add_new_lines(paragraph_split, 20)
 
     return new_lines_added
